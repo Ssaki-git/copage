@@ -1,50 +1,54 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
-
-    <v-main>
+    <AppHeader />
+    <v-content>
       <router-view />
-    </v-main>
+    </v-content>
+    <AppFooter />
   </v-app>
 </template>
 
 <script>
+import AppHeader from "./components/AppHeader.vue";
+//import Home from "./components/Home.vue";
+import AppFooter from "./components/AppFooter.vue";
+
 export default {
   name: "App",
-
-  data: () => ({
-    //
-  }),
+  components: {
+    AppHeader,
+    //Home,
+    AppFooter,
+  },
+  methods: {
+    createTitleDesc: function (routeInstance) {
+      //titleを設定する処理
+      if (routeInstance.meta.title) {
+        var setTitle = routeInstance.meta.title + " | company";
+        document.title = setTitle;
+      } else {
+        document.title = "company";
+      }
+      if (routeInstance.meta.desc) {
+        var setDesc = routeInstance.meta.desc + " | company";
+        document
+          .querySelector("meta[name='description']")
+          .setAttribute("content", setDesc);
+      } else {
+        document
+          .querySelector("meta[name='description']")
+          .setAttribute("content", "ディスクリプションはありません");
+      }
+    },
+  },
+  mounted: function () {
+    var routeInstance = this.$route;
+    this.createTitleDesc(routeInstance);
+  },
+  watch: {
+    $route(routeInstance) {
+      this.createTitleDesc(routeInstance);
+    },
+  },
 };
 </script>
