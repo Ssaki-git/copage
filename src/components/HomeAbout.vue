@@ -1,7 +1,7 @@
 <template>
   <section class="home-about">
     <div class="section__title">
-      <div class="section__title-text">About Me</div>
+      <div class="section__title-text">About our production.</div>
     </div>
     <!-- ここから追加 -->
     <v-container>

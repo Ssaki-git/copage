@@ -5,7 +5,7 @@ import Service from '../components/Service.vue'
 import Work from '../components/Work.vue'
 import Contact from '../components/Contact.vue'
 import Thank from '../components/Thank.vue'
-import Sample from '../components/Sample.vue'
+
 
 Vue.use(VueRouter);
 
@@ -36,11 +36,6 @@ const routes = [
     path: '/thank',
     name: 'thank',
     component: Thank
-  },
-  {
-    path: '/sample',
-    name: 'sample',
-    component: Sample
   },
 ]
 

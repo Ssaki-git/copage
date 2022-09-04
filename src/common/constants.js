@@ -16,10 +16,7 @@ export default {
       name: 'CONTACT',
       url: '/contact' // 今回追加
     },
-     {
-      name: 'SAMPLE',
-      url: '/sample' // 今回追加
-    },
+     
 
   ]
 }
