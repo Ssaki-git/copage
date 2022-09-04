@@ -3,8 +3,8 @@
     <v-container fluid fill-height class="home-hero__content">
       <v-row>
         <v-col class="home-hero__content-text">
-          <p>Welcome to my website.</p>
-          <p>enginner + designer.</p>
+          <p>SAMPLE PAGE</p>
+          <p>〇〇株式会社</p>
         </v-col>
       </v-row>
     </v-container>
