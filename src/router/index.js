@@ -15,7 +15,7 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: 'SsakiPortfolio', desc: 'LP,コーポレートページ,デザイン,コーディング,制作のお仕事を行います' }
+      title: 'corporate', desc: 'コーポレートページ' }
   },
   {
     path: '/work',
