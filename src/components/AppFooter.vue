@@ -1,5 +1,5 @@
 <template>
-  <v-footer dark absolute>
+  <v-footer light absolute>
     <div class="footer">Copyright test 2022. All right reserved</div>
   </v-footer>
 </template>
