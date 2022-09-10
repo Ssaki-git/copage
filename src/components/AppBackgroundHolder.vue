@@ -22,7 +22,7 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/common/common.scss";
 .background-holder__content {
-  background: url("../assets/Hero.png");
+  background: url("../assets/Hero.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;

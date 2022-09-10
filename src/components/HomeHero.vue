@@ -13,7 +13,7 @@
 <style lang="scss" scoped>
 @import "../styles/common/common.scss";
 .home-hero__content {
-  background: url("../assets/port002.png");
+  background: url("../assets/Hero.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;

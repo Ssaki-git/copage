@@ -2,7 +2,7 @@
   <header>
     <v-app-bar app light>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title>pagename</v-toolbar-title>
+      <v-toolbar-title>〇〇株式会社</v-toolbar-title>
       <v-tabs light>
         <v-tab
           v-for="(menuItem, index) in menuItems"

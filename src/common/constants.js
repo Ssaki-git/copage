@@ -1,7 +1,7 @@
 export default {
   menuItems: [
     {
-      name: 'HOME',
+      name: 'TOP',
       url: '/' // 今回追加
     },
     {
