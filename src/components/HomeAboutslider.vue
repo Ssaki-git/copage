@@ -1,7 +1,7 @@
 <template>
   <section class="home-slide">
     <div class="section__title">
-      <div class="section__title-text">about our production.</div>
+      <div class="section__title-text">Our production.</div>
     </div>
     <!-- ここから追加 -->
     <v-container>
