@@ -3,7 +3,6 @@
     <div class="section__title">
       <div class="section__title-text">Our production.</div>
     </div>
-    <!-- ここから追加 -->
     <v-container>
       <v-sheet>
         <v-slide-group multiple show-arrows>
@@ -16,14 +15,15 @@
               />
               <v-card-title>sample title {{ n }}</v-card-title>
               <v-card-text class="text--primary">
-                {{ n }}番目のカードテキスト
+                {{
+                  n
+                }}番目のカードテキストXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
               </v-card-text>
             </v-card>
           </v-slide-item>
         </v-slide-group>
       </v-sheet>
     </v-container>
-    <!-- ここまで追加 -->
   </section>
 </template>
 <script>

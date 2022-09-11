@@ -1,13 +1,13 @@
 <template>
   <section class="home-about">
     <div class="section__title">
-      <div class="section__title-text">About our production.</div>
+      <div class="section__title-text">About</div>
     </div>
     <!-- ここから追加 -->
     <v-container>
       <v-row class="home-about__contents">
         <v-col md="5" class="home-about__contents-img">
-          <img src="../assets/port01.png" alt="" class="img-fluid" />
+          <img src="../assets/aboutco.png" alt="" class="img-fluid" />
         </v-col>
         <v-col md="5" class="home-about__contents-text">
           <p>
@@ -29,7 +29,7 @@ import AppButton from "./AppButton.vue";
 export default {
   data() {
     return {
-      buttonText: "WORK",
+      buttonText: "MORE",
       url: "/work",
     };
   },

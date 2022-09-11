@@ -1,7 +1,7 @@
 <template>
   <section class="home-service">
     <div class="section__title">
-      <div class="section__title-text">My Service</div>
+      <div class="section__title-text">Service</div>
     </div>
     <v-container>
       <v-row class="home-service__contents">
