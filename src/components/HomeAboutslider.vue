@@ -11,7 +11,7 @@
               <v-img
                 class="white--text align-end"
                 height="120px"
-                src="../assets/port01.png"
+                src="../assets/aboutco.png"
               />
               <v-card-title>sample title {{ n }}</v-card-title>
               <v-card-text class="text--primary">
