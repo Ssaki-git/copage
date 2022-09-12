@@ -1,18 +1,105 @@
 <template>
   <section class="service">
     <AppBackgroundHolder :title="title" />
-    <div id="direction">
-      <h2>ディレクション</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-    </div>
-    <div id="coding">
-      <h2>コーディング</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-    </div>
-    <div id="design">
-      <h2>デザイン</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-    </div>
+    <v-container>
+      <v-row class="service__contents">
+        <v-col md="3">
+          <v-card href="https://www.yahoo.co.jp/">
+            <div class="service__card-title">
+              <h3>ディレクション</h3>
+            </div>
+            <div class="service__card-img">
+              <img
+                class="icon--service"
+                src="../assets/direction.png"
+                alt="ディレクション"
+              />
+            </div>
+            <div class="service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card to="/service#coding" hover>
+            <div class="service__card-title">
+              <h3>コーディング</h3>
+            </div>
+            <div class="service__card-img">
+              <img
+                class="icon--service"
+                src="../assets/coding.png"
+                alt="コーディング"
+              />
+            </div>
+            <div class="service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card to="/service#design" hover>
+            <div class="service__card-title">
+              <h3>デザイン</h3>
+            </div>
+            <div class="service__card-img">
+              <img
+                class="icon--service"
+                src="../assets/design.png"
+                alt="デザイン"
+              />
+            </div>
+            <div class="service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card to="/service#design" hover>
+            <div class="service__card-title">
+              <h3>デザイン</h3>
+            </div>
+            <div class="service__card-img">
+              <img
+                class="icon--service"
+                src="../assets/design.png"
+                alt="デザイン"
+              />
+            </div>
+            <div class="service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card to="/service#design" hover>
+            <div class="service__card-title">
+              <h3>デザイン</h3>
+            </div>
+            <div class="service__card-img">
+              <img
+                class="icon--service"
+                src="../assets/design.png"
+                alt="デザイン"
+              />
+            </div>
+            <div class="service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
   </section>
 </template>
 <script>
@@ -21,7 +108,7 @@ import AppBackgroundHolder from "./AppBackgroundHolder.vue";
 export default {
   data() {
     return {
-      title: "Service",
+      title: "service",
     };
   },
   components: {
@@ -31,15 +118,35 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../styles/common/common.scss";
-#direction {
-  height: 1000px;
+.service__contents {
+  margin-top: 20px;
+  justify-content: center;
 }
 
-#coding {
-  height: 1000px;
+.service__card-title {
+  text-align: center;
+  padding: 20px 10px 10px;
 }
 
-#design {
-  height: 1000px;
+.service__card-img {
+  text-align: center;
+  padding: 20px;
+}
+
+.service__card-text {
+  padding: 10px 20px;
+}
+
+.icon--service {
+  width: 48px;
+  height: 48px;
+}
+
+.v-window {
+  height: 300px !important;
+
+  @include display_pc {
+    height: 500px !important;
+  }
 }
 </style>
