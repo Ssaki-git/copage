@@ -5,7 +5,7 @@
       <v-row class="service__contents">
         <v-col md="6">
           <v-card to="service#direction">
-            <div class="service__card-title">
+            <div class="service__card-title" id="direction">
               <h3>ディレクション</h3>
             </div>
             <div class="service__card-img">
