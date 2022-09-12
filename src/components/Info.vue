@@ -1,26 +1,16 @@
 <template>
-  <section class="info">
+  <section class="information">
     <AppBackgroundHolder :title="title" />
     <v-container>
-      <v-row class="info__contents">
-        <v-col md="6">
-          <v-card to="info#direction">
-            <div class="info__card-title" id="direction">
-              <h3>ディレクション</h3>
-            </div>
-            <div class="info__card-img">
-              <img
-                class="icon--info"
-                src="../assets/direction.png"
-                alt="ディレクション"
-              />
-            </div>
-            <div class="info__card-text">
-              <p>
-                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-              </p>
-            </div>
-          </v-card>
+      <v-row class="information__table">
+        <v-col md="7">
+          <v-data-table
+            :headers="headers"
+            :items="members"
+            hide-default-header
+            hide-default-footer
+            class="information__data"
+          ></v-data-table>
         </v-col>
       </v-row>
     </v-container>
@@ -32,7 +22,53 @@ import AppBackgroundHolder from "./AppBackgroundHolder.vue";
 export default {
   data() {
     return {
-      title: "info",
+      title: "information",
+      headers: [
+        { text: "名前", value: "name", width: "20%" },
+        { text: "性別", value: "gender", width: "60%" },
+      ],
+      members: [
+        {
+          name: "田中一郎",
+          gender: "男性",
+        },
+        {
+          name: "田中二郎",
+          gender: "男性",
+        },
+        {
+          name: "田中三郎",
+          gender: "男性",
+        },
+        {
+          name: "田中四郎",
+          gender: "男性",
+        },
+        {
+          name: "田中五郎",
+          gender: "男性",
+        },
+        {
+          name: "田中六郎",
+          gender: "男性",
+        },
+        {
+          name: "田中七郎",
+          gender: "男性",
+        },
+        {
+          name: "田中八郎",
+          gender: "男性",
+        },
+        {
+          name: "田中九郎",
+          gender: "男性",
+        },
+        {
+          name: "田中十郎",
+          gender: "男性",
+        },
+      ],
     };
   },
   components: {
@@ -42,26 +78,27 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../styles/common/common.scss";
-.info__contents {
+.information__table {
   margin-top: 20px;
   justify-content: center;
 }
 
-.info__card-title {
+.information__data {
   text-align: center;
-  padding: 20px 10px 10px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
-.info__card-img {
+.information__card-img {
   text-align: center;
   padding: 20px;
 }
 
-.info__card-text {
+.information__card-text {
   padding: 10px 20px;
 }
 
-.icon--info {
+.icon--information {
   width: 48px;
   height: 48px;
 }

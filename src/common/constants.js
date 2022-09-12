@@ -6,7 +6,7 @@ export default {
     },
     {
       name: 'INFO',
-      url: '/info' // 今回追加
+      url: '/infomation' // 今回追加
     },
     {
       name: 'SERVICE',
