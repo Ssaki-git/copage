@@ -5,10 +5,6 @@ export default {
       url: '/' // 今回追加
     },
     {
-      name: 'WORK',
-      url: '/work' // 今回追加
-    },
-    {
       name: 'SERVICE',
       url: '/service' // 今回追加
     },

@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from '../components/Home.vue'
 import Service from '../components/Service.vue'
-import Work from '../components/Work.vue'
 import Contact from '../components/Contact.vue'
 import Thank from '../components/Thank.vue'
 
@@ -16,11 +15,6 @@ const routes = [
     component: Home,
     meta: {
       title: 'corporate', desc: 'コーポレートページ' }
-  },
-  {
-    path: '/work',
-    name: 'work',
-    component: Work
   },
   {
     path: '/service',

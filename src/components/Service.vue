@@ -3,8 +3,8 @@
     <AppBackgroundHolder :title="title" />
     <v-container>
       <v-row class="service__contents">
-        <v-col md="3">
-          <v-card href="https://www.yahoo.co.jp/">
+        <v-col md="6">
+          <v-card to="service#direction">
             <div class="service__card-title">
               <h3>ディレクション</h3>
             </div>
@@ -22,7 +22,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col md="3">
+        <v-col md="6">
           <v-card to="/service#coding" hover>
             <div class="service__card-title">
               <h3>コーディング</h3>
@@ -41,7 +41,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col md="3">
+        <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
               <h3>デザイン</h3>
@@ -60,7 +60,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col md="3">
+        <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
               <h3>デザイン</h3>
@@ -79,7 +79,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col md="3">
+        <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
               <h3>デザイン</h3>
