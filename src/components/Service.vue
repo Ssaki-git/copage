@@ -11,7 +11,7 @@
             <div class="service__card-img">
               <img
                 class="icon--service"
-                src="../assets/direction.png"
+                src="../assets/designe.png"
                 alt="ディレクション"
               />
             </div>
@@ -30,7 +30,7 @@
             <div class="service__card-img">
               <img
                 class="icon--service"
-                src="../assets/coding.png"
+                src="../assets/designe.png"
                 alt="コーディング"
               />
             </div>

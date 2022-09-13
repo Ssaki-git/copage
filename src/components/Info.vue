@@ -24,49 +24,49 @@ export default {
     return {
       title: "information",
       headers: [
-        { text: "名前", value: "name", width: "20%" },
-        { text: "性別", value: "gender", width: "60%" },
+        { text: "名前", value: "name" },
+        { text: "性別", value: "gender" },
       ],
       members: [
         {
           name: "会社名",
-          gender: "男性",
+          gender: "株式会社〇〇〇〇",
         },
         {
           name: "所在地",
-          gender: "男性",
+          gender: "東京都〇〇〇〇〇〇",
         },
         {
           name: "電話番号",
-          gender: "男性",
+          gender: "03-xxxxxxxxxxxxxx",
         },
         {
           name: "FAX",
-          gender: "男性",
+          gender: "03-xxxxxxxxxxxxxx",
         },
         {
           name: "メールアドレス",
-          gender: "男性",
+          gender: "xxxx.yyy@abc.com",
         },
         {
           name: "ホームページURL",
-          gender: "男性",
+          gender: "https://xxxxxx.com",
         },
         {
           name: "代表者名",
-          gender: "男性",
+          gender: "田中太郎",
         },
         {
           name: "事業内容",
-          gender: "男性",
+          gender: "小売,運送",
         },
         {
           name: "取扱製品",
-          gender: "男性",
+          gender: "xxxxxx,yyyyyy,zzzzz",
         },
         {
           name: "設立年月",
-          gender: "男性",
+          gender: "2000/01/01",
         },
       ],
     };
