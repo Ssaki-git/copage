@@ -29,43 +29,43 @@ export default {
       ],
       members: [
         {
-          name: "田中一郎",
+          name: "会社名",
           gender: "男性",
         },
         {
-          name: "田中二郎",
+          name: "所在地",
           gender: "男性",
         },
         {
-          name: "田中三郎",
+          name: "電話番号",
           gender: "男性",
         },
         {
-          name: "田中四郎",
+          name: "FAX",
           gender: "男性",
         },
         {
-          name: "田中五郎",
+          name: "メールアドレス",
           gender: "男性",
         },
         {
-          name: "田中六郎",
+          name: "ホームページURL",
           gender: "男性",
         },
         {
-          name: "田中七郎",
+          name: "代表者名",
           gender: "男性",
         },
         {
-          name: "田中八郎",
+          name: "事業内容",
           gender: "男性",
         },
         {
-          name: "田中九郎",
+          name: "取扱製品",
           gender: "男性",
         },
         {
-          name: "田中十郎",
+          name: "設立年月",
           gender: "男性",
         },
       ],
