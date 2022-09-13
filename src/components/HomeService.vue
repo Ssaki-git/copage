@@ -8,7 +8,7 @@
         <v-col md="3">
           <v-card to="/service#direction" hover>
             <div class="home-service__card-title">
-              <h3>ディレクション</h3>
+              <h3>業務内容１</h3>
             </div>
             <div class="home-service__card-img">
               <img
@@ -27,7 +27,7 @@
         <v-col md="3">
           <v-card to="/service#coding" hover>
             <div class="home-service__card-title">
-              <h3>コーディング</h3>
+              <h3>業務内容２</h3>
             </div>
             <div class="home-service__card-img">
               <img
@@ -46,7 +46,7 @@
         <v-col md="3">
           <v-card to="/service#design" hover>
             <div class="home-service__card-title">
-              <h3>デザイン</h3>
+              <h3>業務内容３</h3>
             </div>
             <div class="home-service__card-img">
               <img

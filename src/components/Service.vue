@@ -6,12 +6,12 @@
         <v-col md="6">
           <v-card to="service#direction">
             <div class="service__card-title" id="direction">
-              <h3>ディレクション</h3>
+              <h3>業務内容１</h3>
             </div>
             <div class="service__card-img">
               <img
                 class="icon--service"
-                src="../assets/designe.png"
+                src="../assets/design.png"
                 alt="ディレクション"
               />
             </div>
@@ -25,12 +25,12 @@
         <v-col md="6">
           <v-card to="/service#coding" hover>
             <div class="service__card-title">
-              <h3>コーディング</h3>
+              <h3>業務内容２</h3>
             </div>
             <div class="service__card-img">
               <img
                 class="icon--service"
-                src="../assets/designe.png"
+                src="../assets/design.png"
                 alt="コーディング"
               />
             </div>
@@ -44,7 +44,7 @@
         <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
-              <h3>デザイン</h3>
+              <h3>業務内容３</h3>
             </div>
             <div class="service__card-img">
               <img
@@ -63,7 +63,7 @@
         <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
-              <h3>デザイン</h3>
+              <h3>業務内容３</h3>
             </div>
             <div class="service__card-img">
               <img
@@ -82,7 +82,7 @@
         <v-col md="6">
           <v-card to="/service#design" hover>
             <div class="service__card-title">
-              <h3>デザイン</h3>
+              <h3>業務内容３</h3>
             </div>
             <div class="service__card-img">
               <img
