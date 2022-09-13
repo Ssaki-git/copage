@@ -4,11 +4,30 @@
     <v-container>
       <v-row class="service__contents">
         <v-col md="6">
-          <v-card @click="open">
+          <v-card @click="open" hover>
             <v-dialog v-model="dialog">
-              <div style="background: white; color: #222222">
-                ためになったら広告の中身を見ていってね⭐️
-              </div>
+              <v-card>
+                <v-card-title class="headline grey lighten-2">
+                  Vuetify で v-dialog をつかってみる
+                </v-card-title>
+                <v-card-text style="margin: 1rem auto">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                  <v-btn color="primary" text @click="dialog = false">
+                    閉じる
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
             </v-dialog>
             <div class="service__card-title" id="direction">
               <h3>業務内容１</h3>
