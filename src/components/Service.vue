@@ -4,7 +4,12 @@
     <v-container>
       <v-row class="service__contents">
         <v-col md="6">
-          <v-card to="service#direction">
+          <v-card @click="open">
+            <v-dialog v-model="dialog">
+              <div style="background: white; color: #222222">
+                ためになったら広告の中身を見ていってね⭐️
+              </div>
+            </v-dialog>
             <div class="service__card-title" id="direction">
               <h3>業務内容１</h3>
             </div>
@@ -109,7 +114,15 @@ export default {
   data() {
     return {
       title: "service",
+      dialog: false,
     };
+  },
+  methods: {
+    open: function () {
+      // dataのdialogをtrueに書き換えているだけ
+      this.dialog = true;
+      // 逆にfalseにすれば閉じるを実装できる
+    },
   },
   components: {
     AppBackgroundHolder,

@@ -16,6 +16,7 @@
           flat
         >
           <v-card-title
+            class=""
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >

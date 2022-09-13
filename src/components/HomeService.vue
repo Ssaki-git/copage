@@ -13,7 +13,7 @@
             <div class="home-service__card-img">
               <img
                 class="icon--service"
-                src="../assets/direction.png"
+                src="../assets/design.png"
                 alt="ディレクション"
               />
             </div>
@@ -32,7 +32,7 @@
             <div class="home-service__card-img">
               <img
                 class="icon--service"
-                src="../assets/coding.png"
+                src="../assets/design.png"
                 alt="コーディング"
               />
             </div>
