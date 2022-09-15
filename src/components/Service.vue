@@ -137,9 +137,7 @@ export default {
   },
   methods: {
     open: function () {
-      // dataのdialogをtrueに書き換えているだけ
       this.dialog = true;
-      // 逆にfalseにすれば閉じるを実装できる
     },
   },
   components: {

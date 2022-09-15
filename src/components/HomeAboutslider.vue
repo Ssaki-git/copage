@@ -26,21 +26,7 @@
     </v-container>
   </section>
 </template>
-<script>
-import AppButton from "./AppButton.vue";
-
-export default {
-  data() {
-    return {
-      buttonText: "WORK",
-      url: "/work",
-    };
-  },
-  components: {
-    AppButton,
-  },
-};
-</script>
+<script></script>
 <style lang="scss" scoped>
 /* ここから追加 */
 @import "../styles/common/common.scss";
