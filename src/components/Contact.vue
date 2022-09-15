@@ -16,7 +16,7 @@
           flat
         >
           <v-card-title
-            class=""
+            class="title__text"
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >
@@ -32,7 +32,7 @@
           ></v-textarea>
 
           <v-card-title
-            class=""
+            class="title__text"
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >
@@ -48,7 +48,7 @@
           ></v-textarea>
 
           <v-card-title
-            class=""
+            class="title__text"
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >
@@ -65,7 +65,7 @@
           ></v-textarea>
 
           <v-card-title
-            class=""
+            class="title__text"
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >
@@ -82,7 +82,7 @@
           ></v-textarea>
 
           <v-card-title
-            class=""
+            class="title__text"
             color="#272727"
             style="margin-top: 10px; font-size: 30px; color: #272727"
           >
@@ -167,4 +167,5 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../styles/common/common.scss";
+
 </style>
